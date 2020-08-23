@@ -1,0 +1,17 @@
+.japan::before{
+     content: '';
+     display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #9f2d33;
+    margin: 40px auto;   
+    } 
+.japan{
+    content: '';
+    display: block; 
+    width: 300px;
+    height: 200px;
+    border: 2px #cccccc solid;
+    background-color: transparent;
+} 
