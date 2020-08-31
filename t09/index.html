@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Superhero Form</h1>
+    <form action="#">
+      <fieldset>
+        <legend>About the Superhero</legend>
+        <br />
+        <label for="hero-name">Real Name</label>
+        <input
+          id="hero-name"
+          type="text"
+          placeholder="Superhero real name"
+          autofocus
+          required
+        />
+        <label for="hero-alias">Superhero Name</label>
+        <input id="hero-alias" type="text" placeholder="Superhero alias" />
+        <label for="age">Age</label>
+        <input id="age" type="number" min="1" max="999" step="1" /> <br /><br />
+        <label for="about">About</label>
+        <textarea
+          name="about"
+          id="about"
+          cols="70"
+          rows="5"
+          placeholder="Information about the superhero, max 500 symbols"
+        ></textarea
+        ><br /><br />
+        <label for="photo">Photo:</label>
+        <input
+          id="photo"
+          type="file"
+          accept="image/jpeg,image/png,image/gif"
+        /><br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Powers</legend><br>
+        <input type="checkbox" id="Telekinesis" name="power" />
+        <label for="Telekinesis">Telekinesis</label>
+        <input type="checkbox" id="sup-str-or-sp" name="power">
+        <label for="sup-str-or-sp">Super strength or speed</label>
+        <input type="checkbox" id="shapeshifting" name="power">
+        <label for="shapeshifting">Shapeshifting</label>
+        <input type="checkbox" id="flight" name="power">
+        <label for="flight">Flight</label>
+        <input type="checkbox" id="other" name="power">
+        <label for="other">Other</label><br><br>
+        <label for="range">Level of control:</label>
+        <input type="range" id="range"><br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Origin of Powers</legend><br>
+        <input type="radio" id="unknown" name="origin">
+        <label for="unknown">Unknown</label>
+        <input type="radio" id="fr-lab-acc" name="origin">
+        <label for="fr-lab-acc">Freak lab accident</label>
+        <input type="radio" id="chosen" name="origin">
+        <label for="chosen">Chosen by an ancient wise being</label>
+        <input type="radio" id="isnt-human" name="origin">
+        <label for="isnt-human">The superhero is not human</label>
+        <input type="radio" id="otherpower" name="origin">
+        <label for="otherpower">Other</label> <br><br>
+      </fieldset><br>
+      <input type="reset" value="CLEAR">
+      <input type="submit" value="SEND"><br><br>
+    </form>
+  </body>
+</html>
