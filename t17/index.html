@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>HTML</h1>
+    <div class="container">
+      <div class="block">
+        <p>
+          <span class="main-span"> div</span><br />
+          <br />
+          defines a division or a section in an HTML document<br />align,title<br /><br /><span
+            >&lt;div&gt;...&lt;/div&gt;</span
+          >
+        </p>
+
+        <div class="example-div">Lorem, ipsum.</div>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> h1 </span><br />
+          <br />
+          The h1 to h6 tags are used to define HTML headings <br />
+          align <br />
+          <br />
+          <span> &lt;h1&gt;Title&lt;/h1&gt;</span>
+        </p>
+        <h1 class="example-h1">Title</h1>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> footer</span> <br />
+          <br />
+          Specifies the trailing are (footer) of a document or section <br />
+          --- <br />
+          <span>&lt;footer&gt;content&lt;/footer&gt;</span>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> main</span> <br />
+          <br />
+          Specifies the main content of a document br<br />---
+          <span><br />&lt;main&gt;content&lt;/main&gt;</span>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> span</span> <br />
+          <br />
+          This is an inline tag that can be used to create a section in a
+          paragraph that can be targeted using CSS: <br /><br />
+          <span
+            >&lt;p&gt;A part of the text &lt;span&gt;and here another
+            part&lt;/span&gt;&lt;/p&gt;</span
+          >
+        </p>
+        <p>
+          A part of the text
+          <span class="span-example">and here another part</span>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"></span> br <br /><br />This tag represents a
+          line break. It's an inline element, and does not need a closing tag.
+          <br />
+          We use it to create a new line inside a p tag, without creating a new
+          paragraph <br />
+          And compared to creating a new paragraph, it does not add additional
+          spacing. <br />
+          <br />
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> strong</span> <br />
+          <br />
+          This tag is used to mark the text inside it as strong. This is pretty
+          important, it's not a visual hint, but a semantic hint. Depending on
+          the medium used, its interpretation will vary. Browsers by default
+          make the text in this tag bold.
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> img</span> <br /><br />
+          The <span>img</span> tag is used to embed an image in an HTML
+          page.Images are not technically inserted into a web page; images are
+          linked to web pages. The <span>img</span> tag creates a holding space
+          for the referenced image. <br />
+          <br />
+          <span>
+            &lt;img src="https://image.freepik.com/
+            free-vector/technology-banner-background-with-hexagonal-shapes-and-text-space_1017-22589.jpg"
+            alt="Picture Example" width="50%"&gt <br /><br
+          /></span>
+          <img
+            src="https://image.freepik.com/free-vector/technology-banner-background-with-hexagonal-shapes-and-text-space_1017-22589.jpg"
+            alt="Picture Example"
+            width="50%"
+          />
+          <br />
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span">a</span> <br />
+          <br />The <span>a</span> tag defines a hyperlink, which is used to
+          link from one page to another. The most important attribute of the
+          <span>a</span> element is the href attribute, which indicates the
+          link's destination <br />
+          <br />
+          <span
+            >&lta&gt href="https://www.w3schools.com"> Visit
+            W3Schools.com!&lt/a&gt</span
+          >
+        </p>
+        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span"> table</span> <br />
+          <br />
+          The <span>&lttable&gt</span> tag defines an HTML table. <br />
+
+          An HTML table consists of one &lttable&gt element and one or more
+          <span>&lttr&gt</span> , <span>&ltth&gt</span> , and
+          <span>&lttd&gt</span> elements.The <span>&lttr&gt</span> element
+          defines a table row, the &ltth&gt element defines a table header, and
+          the <span>&lttd&gt</span> element defines a table cell. <br />
+          <br /><span>
+            &lttable&gt <br />
+            &lttr&gt <br />
+            &ltth&gtMonth&lt/th&gt <br />
+            &ltth&gtSavings&ltth&gt <br />
+            &lt/tr&gt <br />
+            &lt/table&gt <br
+          /></span>
+        </p>
+
+        <table>
+          <tr>
+            <td>Month</td>
+            <td>Savings</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <h1>CSS</h1>
+    <div class="container">
+      <div class="block">
+        <p>
+          <span class="main-span">Selectors</span>
+        </p>
+        <p>
+          Suppose we have a <span>p</span> element on the page, and we want to
+          display the words into it using the yellow color. We can target that
+          element using this selector <span>p</span>, which targets all the
+          element using the <span>p</span> tag in the page. A simple CSS rule to
+          achieve what we want is: <br />
+          <br />
+          <span>
+            p { <br />
+            color: yellow; <br />
+            br } <br />
+            <br />
+            <p style="color: yellow;">Yellow text</p>
+          </span>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="main-span">Classes</span>
+        </p>
+        <p>
+            HTML elements have 2 attributes which are very commonly used within CSS to associate styling to a specific element on the page: class and id. <br>
+          Classes are identified using the <span>.</span> symbol <br />
+          Example using a class: <br />
+          <br />
+          <span>
+            &ltp class="dog-name"> <br />
+            Roger <br />
+            &lt/p> <br />
+            <br />
+
+            .dog-name { <br />
+            color: yellow; <br />
+            } <br />
+            <br />
+            <p class="dog-name">
+              Roger
+            </p>
+            <style>
+              .dog-name {
+                color: yellow;
+              }
+            </style>
+          </span>
+        </p>
+      </div>
+      <div class="block">
+          <p><span class="main-span">IDs</span></p>
+          <p></p>
+      </div>
+    </div>
+  </body>
+</html>
