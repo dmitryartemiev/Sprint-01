@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    color: #cfd0d0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    color: #3f4852;
+    font-family: none;
+}
+.main{
+    position: relative;
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+}
+.container{
+    position: relative;
+    background-color: #3d4550;
+    width: 600px;
+    height: 400px;
+}
+.block{
+    background-color: #46515e;
+    border: 1px solid #676b70;
+    height: calc(100% - 51px);
+    margin: 25px 70px 0px 10px;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-flow: column;
+}
+.content{
+    position: relative;
+    margin: 20px;
+    width: 50%;
+    height: 20px;
+    /* background-color: lightgray; */
+
+}
+.side{
+    position: absolute;
+    background-color:#2e3740 ;
+    top: 25%;
+    left: 530px;
+    padding: 10px 10px 10px 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.side .image img{
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+.dropdown{
+    position: absolute;
+    margin: 10px 0px;
+    
+    /* transform: translate(-50%, -50%); */
+}
+.dropdown select{
+    background-color:#2b343b ;
+    color: #cfd0d0;
+    width: 200px;
+    height: 30px;
+    
+    appearance: button;
+    padding: 0px 5px 0px 5px;
+    
+}
