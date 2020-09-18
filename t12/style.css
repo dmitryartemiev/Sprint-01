@@ -1,25 +1,31 @@
-h1{
-margin-left: 70px;
+h1 {
+  margin-left: 70px;
 }
-.box{
-    border: black solid 1px;
-    margin: 0px 100px;
-    background: #dddddd;
-    padding: 25px;
-    position: relative;
-    top: 25px;
-} 
-.box:before{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    content: '';
-    position: absolute;
-    top: -1px; left: -25px; bottom: -1px; right: -25px;
+.box {
+  border: black solid 1px;
+  margin: 0px 100px;
+  background: #dddddd;
+  padding: 25px;
+  position: relative;
+  top: 25px;
 }
-.box::after{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    content: '';
-    position: absolute;
-    top: -25px; left: -1px; bottom: -25px; right: -1px;
+.box:before {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -25px;
+  bottom: -1px;
+  right: -25px;
+}
+.box::after {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -1px;
+  bottom: -25px;
+  right: -1px;
 }

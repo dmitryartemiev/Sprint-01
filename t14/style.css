@@ -1,54 +1,56 @@
-.match{
-    position: relative;
-    padding-top: 25px;
+.match {
+  position: relative;
+  padding-top: 25px;
 }
-.fire{
-    position: absolute;
-    background:linear-gradient(135deg, red, orange);
-    height: 300px;
-    width: 300px;
-    display: block;
-    right:50%;
-    margin-right: -150px;
-    margin-top: 50px;
-    transform: rotate(45deg);
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    box-shadow: 0px 0px 15px 2px orangered;
-    z-index:1;
+.fire {
+  position: absolute;
+  background: linear-gradient(135deg, red, orange);
+  height: 300px;
+  width: 300px;
+  display: block;
+  right: 50%;
+  margin-right: -150px;
+  margin-top: 50px;
+  transform: rotate(45deg);
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0px 0px 15px 2px orangered;
+  z-index: 1;
 }
-.top{
-    position: absolute;
-    background-color: #452913;
-    height: 120px;
-    width: 100px;
-    right: 50%;
-    margin-right: -50px;
-    margin-top: 240px;
-    border-radius: 50%;
-    box-shadow: 0px -15px 25px 10px white;
-    z-index: 3;
+.top {
+  position: absolute;
+  background-color: #452913;
+  height: 120px;
+  width: 100px;
+  right: 50%;
+  margin-right: -50px;
+  margin-top: 240px;
+  border-radius: 50%;
+  box-shadow: 0px -15px 25px 10px white;
+  z-index: 3;
 }
-.top::before{
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 30%; margin-left: -15%;
-    height: 20px; 
-    top: -20px; 
-    background-color: rgba(255, 255, 255, .8);
-    box-shadow: 0px 20px 30px 30px rgba(255, 255, 255, 1); 
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
- }
- .stick{
-     position: absolute;
-     top: 300px;
-     left: 50%; margin-left: -27.5px;
-     height: 500px;
-     width: 50px;
-     border: solid 2px #c7947c;
-     background: linear-gradient(90deg, #844b2f, #d8a672);
-     z-index: 2;
- }
+.top::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 30%;
+  margin-left: -15%;
+  height: 20px;
+  top: -20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 20px 30px 30px rgba(255, 255, 255, 1);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.stick {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  margin-left: -27.5px;
+  height: 500px;
+  width: 50px;
+  border: solid 2px #c7947c;
+  background: linear-gradient(90deg, #844b2f, #d8a672);
+  z-index: 2;
+}

@@ -1,6 +1,7 @@
 body {
   background-color: lightgoldenrodyellow;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
 }
 header {
   color: #fabc3b;
@@ -47,9 +48,7 @@ header {
   background-color: #3e4f7e;
   color: #fdce6c;
   box-shadow: 1px 5px 10px -5px black;
-  transition: all 0.3s ease;
 }
-
 /* sub-menu */
 
 .dropdown-menu li ul {

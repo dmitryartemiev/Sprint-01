@@ -1,17 +1,18 @@
-form{
-    border: 2px solid gray;
-    padding: 20px;
-    background: linear-gradient(90deg, #b06ab3, #4568DC);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+form {
+  border: 2px solid gray;
+  padding: 20px;
+  background: linear-gradient(90deg, #b06ab3, #4568dc);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-fieldset{
-    background: linear-gradient(90deg, #f2ccff, #4568DC);
-    border: 1px solid black;
-    border-radius: 10px;
+fieldset {
+  background: linear-gradient(90deg, #f2ccff, #4568dc);
+  border: 1px solid black;
+  border-radius: 10px;
 }
-legend{
-    margin: 10px;
-    background-color: rgba(242, 204, 255, 1);
-    border: solid 1px black;
-    border-radius: 5px;
+legend {
+  margin: 10px;
+  background-color: rgba(242, 204, 255, 1);
+  border: solid 1px black;
+  border-radius: 5px;
 }

@@ -1,44 +1,41 @@
 table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-    
-    
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
 }
 
 thead {
-    background-color: black;
-    color: white;
-
+  background-color: black;
+  color: white;
 }
 
 table td {
-    border: 2px solid #e6e6e6;
-    padding: 10px;
+  border: 2px solid #e6e6e6;
+  padding: 10px;
 }
-tbody {}
 
 .orange {
-    background-color: #cd944d;
+  background-color: #cd944d;
 }
 
 .green {
-    background-color: #377e22;
+  background-color: #377e22;
 }
 
 .blue {
-    background-color:#22578d;
+  background-color: #22578d;
 }
-.yellow{
-    background-color: #fffc55 ;
+.yellow {
+  background-color: #fffc55;
 }
-.red{
-    background-color: #b33637;
+.red {
+  background-color: #b33637;
 }
-.purple{
-    background-color: #7f77b2;
+.purple {
+  background-color: #7f77b2;
 }
-img{
-    height: 120px; width: 120px;
-    border-radius: 20px;
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 20px;
 }

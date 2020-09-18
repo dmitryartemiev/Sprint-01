@@ -1,14 +1,14 @@
 .gauntlet {
-    height: 400px;
-    padding: 20px;
+  height: 400px;
+  padding: 20px;
 }
 .man {
-    padding: 5px;
-    height: 70px;
+  padding: 5px;
+  height: 70px;
 }
-.gauntlet:hover + table .first td:nth-child(2n+1){
-    opacity: 0;
+.gauntlet:hover + table .first td:nth-child(2n + 1) {
+  opacity: 0;
 }
-.gauntlet:hover + table .second td:nth-child(2n){
-    opacity: 0;
+.gauntlet:hover + table .second td:nth-child(2n) {
+  opacity: 0;
 }
