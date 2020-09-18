@@ -18,7 +18,7 @@ p {
   display: inline-block;
   margin: 20px 10px;
   /* min-height: 140px; */
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 .example-div {
   margin: 10px;
@@ -31,26 +31,29 @@ p {
   padding-left: 10px;
   font-size: 50px;
 }
-.span-example{
-    background-color: white !important;
-    
+.span-example {
+  background-color: white !important;
 }
 span {
   font-style: italic;
   background-color: aliceblue;
-
 }
-.main-span{
-    background-color: lightcyan;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-
+.main-span {
+  background-color: lightcyan;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
 }
 
-img{margin-left: 25%;}
-table{border-collapse: collapse;}
-td{border: solid 1px grey;}
+img {
+  margin-left: 25%;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border: solid 1px grey;
+}
 
 @media (min-width: 320px) {
   .block {
